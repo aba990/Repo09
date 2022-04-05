@@ -5,7 +5,7 @@ function logicOrder(num) {
     return "Less than 100";
 }
     else { return "Greater than or equal to 100";
-} 
+}
 }
 console.log(logicOrder(28));
 console.log(logicOrder(60));

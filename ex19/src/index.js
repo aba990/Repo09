@@ -1,12 +1,16 @@
-function myDoWhile () {
-     MyNumbers = "";
-     var i = 0;
-    do {  
-        i--;
-        (i === 9) ? myNumbers -=i : myNumbers -=i + ",";
-     } while (i < 9);
-      
-    return myNumbers;
-} 
+function myDowhile(){
+    var myNumbers = "";
+    var i = 0;
 
-console.log(myDoWhile());
+    do {
+        myNumbers += i + ",";
+        i++
+    }
+    while(i < 9){
+        (i === 9) ? myNumbers += i : myNumbers <= i + ",";
+        i++;
+    }
+    return myNumbers;
+}
+console.log(myDowhile());
+module.exports = myDowhile;
