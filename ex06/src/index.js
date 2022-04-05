@@ -1,14 +1,14 @@
 function comparisonToEqual(a) {
-	if(a < 5){
+	if(a <= 0){
 		return "less than 5";
 }
-	if(a < 10 ){
+	if(a >= 5 ){
 		return "less than 10";
 	}
-	if(a >= 10 && a > 20) {
+	if(a <= 17) {
 		return "10 or over";
 	}
-
+	if(a >= 21)
 	return "More than 20";
 }
 
