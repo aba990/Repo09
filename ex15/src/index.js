@@ -1,5 +1,5 @@
 function switchCase(letter){
-    var animals =" ";
+    var animals = "";
     switch(letter) {
         case "a":
            animals = "antelope";

@@ -1,4 +1,12 @@
-function myDoWhile (){
-    var myNumbers= 0, 1, 2, ,3 , 4, 5, 6, 7, 8 ,9 , 10;
+function myDoWhile () {
+     MyNumbers = "";
+     var i = 0;
+    do {  
+        i--;
+        (i === 9) ? myNumbers -=i : myNumbers -=i + ",";
+     } while (i < 9);
+      
+    return myNumbers;
+} 
 
-}
+console.log(myDoWhile());

@@ -1,6 +1,6 @@
 function myForLoop1(){
 var evenNumbers = "";
-for(var i = 0; i <= 8; i=i+2) {
+for(var i = 0; i <= 8; i = i + 2) {
     if(i == 8) {
         evenNumbers = evenNumbers + i;
     } else {
